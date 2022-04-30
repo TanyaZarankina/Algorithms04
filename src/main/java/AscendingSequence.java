@@ -2,7 +2,6 @@ public class AscendingSequence {
 
 
     public int [] ascendingSequenceAlgorithm (int start, int end, int step) {
-
         //0, 1, 2, 3, 4, 5
 
         if (step > 0 && start < end){

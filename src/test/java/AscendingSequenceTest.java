@@ -15,6 +15,7 @@ public class AscendingSequenceTest {
     @RepeatedTest(50)
     @Test
     public void testAscendingSequenceHappyPath(){
+
         //0, 1, 2, 3, 4, 5
         int start = 0;
         int end = 5;
