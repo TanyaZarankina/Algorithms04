@@ -24,4 +24,15 @@ public class T_1_OddEven {
             return "Undefined";
         }
     }
+//    public String oddEven3 (int number){
+//        if (number %2 !=0 && number != number *(-1)){
+//            return "Odd";
+//        }else if(number %2 == 0 && (number != number * (-1) || number ==0)){
+//            return "Even";
+//        } else {
+//            return "Underfined"
+//        }
+//    }
 }
+
+

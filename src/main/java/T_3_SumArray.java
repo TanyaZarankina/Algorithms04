@@ -7,11 +7,15 @@ public class T_3_SumArray {
     //{-7, -3} → -10
 
     public int sumArray(int[] array) {
-        int sumA[] = new int[array.length];
+        if (array.length == 0) {
+            return 0;
+        }
+
         int sum = 0;
         for (int i = 0; i < array.length; i++) {
+
             sum += array[i];
         }
-        return sum;
+        return sum++;
     }
 }
